@@ -31,6 +31,7 @@ public class Selection {
         names.add("Drax");
         names.add("Dr. Doom");
         names.add("Doctor Strange");
+        names.add("Electro");
         names.add("Falcon");
         names.add("Galactus");
         names.add("Gamora");
@@ -39,7 +40,9 @@ public class Selection {
         names.add("Hulk");
         names.add("Iron Man");
         names.add("Maphisto");
+        names.add("Mystique");
         names.add("Nick Fury");
+        names.add("RedSkull");
         names.add("Rhino");
         names.add("Rocket");
         names.add("Sandman");
@@ -51,9 +54,7 @@ public class Selection {
         names.add("Winter Solder");
         names.add("Vision");
         // 1. ADD MORE NAMES TO THE LIST HERE:
-        names.add("Electro");
-        names.add("Mystique");
-        names.add("RedSkull");
+
         // END OF PART 1
         names.sort(null);
         names.add(0, "Make a selection");

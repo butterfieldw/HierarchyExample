@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3485b01f-658a-41af-9fb9-cff92361c309" name="Changes" comment="Reorganized the selection starter code.">
-      <change afterPath="$PROJECT_DIR$/src/villains/Electro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/villains/Mystique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/villains/RedSkull.java" afterDir="false" />
+    <list default="true" id="3485b01f-658a-41af-9fb9-cff92361c309" name="Changes" comment="Added more villains.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/heroes/NickFury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heroes/NickFury.java" afterDir="false" />
@@ -88,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650553156407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more villains.">
+      <created>1650557346187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650557346187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +113,7 @@
     <MESSAGE value="Added error handling code for unfinished selection statements in the Selection class." />
     <MESSAGE value="Added a toString() method to the Villain class." />
     <MESSAGE value="Reorganized the selection starter code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized the selection starter code." />
+    <MESSAGE value="Added more villains." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more villains." />
   </component>
 </project>
