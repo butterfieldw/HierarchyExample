@@ -26,30 +26,30 @@ public class Selection {
     public static ArrayList<String> selectionOptions()
     {
         ArrayList<String> names = new ArrayList<String>();
-        names.add("Drax");
-        names.add("Gamora");
-        names.add("Groot");
-        names.add("Rocket");
-        names.add("Star Lord");
         names.add("Captain America");
+        names.add("Carnage");
+        names.add("Drax");
+        names.add("Dr. Doom");
         names.add("Doctor Strange");
         names.add("Falcon");
-        names.add("Iron Man");
-        names.add("Nick Fury");
-        names.add("Spider Man");
-        names.add("Vision");
-        names.add("Wanda");
-        names.add("Winter Soldier");
+        names.add("Galactus");
+        names.add("Gamora");
+        names.add("Groot");
         names.add("Hawkeye");
         names.add("Hulk");
-        names.add("War Machine");
-        names.add("Carnage");
-        names.add("Dr. Doom");
-        names.add("Galactus");
+        names.add("Iron Man");
         names.add("Maphisto");
+        names.add("Nick Fury");
         names.add("Rhino");
+        names.add("Rocket");
         names.add("Sandman");
+        names.add("Spider Man");
+        names.add("Star Lord");
         names.add("Thanos");
+        names.add("Wanda");
+        names.add("War Machine");
+        names.add("Winter Solder");
+        names.add("Vision");
         // 1. ADD MORE NAMES TO THE LIST HERE:
         names.add("Electro");
         names.add("Mystique");
@@ -89,9 +89,15 @@ public class Selection {
             theText = theCharacter.toString() + "\n";
             theImage = null;
         }
-        else if (selectedName.equals("Falcon"))
+        else if (selectedName.equals("Electro"))
         {
 
+        }
+        else if (selectedName.equals("Falcon"))
+        {
+            Falcon theCharacter = new Falcon("Sam Wilson", "Flies with wings and weapons");
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
+            theImage = null;
         }
         else if (selectedName.equals("Galactus"))
         {
@@ -125,11 +131,19 @@ public class Selection {
         {
 
         }
+        else if (selectedName.equals("Mystique"))
+        {
+
+        }
         else if (selectedName.equals("Nick Fury"))
         {
             NickFury theCharacter = new NickFury("Nicholas Fury", "secert spy");
             theText = theCharacter.toString() + "\n" + theCharacter.fly();
             theImage = null;
+        }
+        else if (selectedName.equals("Red Skull"))
+        {
+
         }
         else if (selectedName.equals("Rhino"))
         {
@@ -161,11 +175,13 @@ public class Selection {
         }
         else if (selectedName.equals("Vision"))
         {
-
+            Vision theCharacter = new Vision("The Vision", "Mind Stone");
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
+            theImage = null;
         }
         else if (selectedName.equals("Wanda"))
         {
-            Wanda theCharacter = new Wanda("Wanda", "Magic");
+            Wanda theCharacter = new Wanda("Scarlet Witch", "Magic, witchcraft");
             theText = theCharacter.toString() + "\n" + theCharacter.fly();
             theImage = null;
         }
@@ -179,22 +195,6 @@ public class Selection {
             theText = theCharacter.toString() + "\n" + theCharacter.throwProjectile();
             theImage = null;
         }
-
-
-
-       else if (selectedName.equals("Rocket"))
-       {
-
-       }
-       else if (selectedName.equals("Star Lord")) {
-
-       }
-       else if (selectedName.equals("Wanda")) {
-
-       }
-       else if (selectedName.equals("Dr. Doom")) {
-
-       }
        // 2. Add more else-if statements here for new characters:
 
         // END OF PART 2S
