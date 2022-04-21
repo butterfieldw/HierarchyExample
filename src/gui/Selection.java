@@ -16,6 +16,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
 import heroes.*;
+import villains.DrDoom;
 
 public class Selection {
 
@@ -91,6 +92,11 @@ public class Selection {
        }
        else if (selectedName.equals("Wanda")) {
            Wanda theCharacter = new Wanda("Wanda", "Magic");
+           theText = theCharacter.toString() + "\n";
+           theImage = null;
+       }
+       else if (selectedName.equals("Dr. Doom")) {
+           DrDoom theCharacter = new DrDoom("Dr. Doom", "Dark mysticicim and sorcery");
            theText = theCharacter.toString() + "\n";
            theImage = null;
        }

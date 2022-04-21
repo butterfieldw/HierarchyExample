@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3485b01f-658a-41af-9fb9-cff92361c309" name="Changes" comment="Added villains.">
+    <list default="true" id="3485b01f-658a-41af-9fb9-cff92361c309" name="Changes" comment="Added error handling code for unfinished selection statements in the Selection class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractions/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractions/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractions/Villain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractions/Villain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/villains/Thanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/villains/Thanos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650549650832</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added error handling code for unfinished selection statements in the Selection class.">
+      <created>1650551588438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650551588439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Added villains." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added villains." />
+    <MESSAGE value="Added error handling code for unfinished selection statements in the Selection class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added error handling code for unfinished selection statements in the Selection class." />
   </component>
 </project>

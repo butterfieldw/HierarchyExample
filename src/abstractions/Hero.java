@@ -24,6 +24,7 @@ public abstract class Hero extends MarvelCharacter
     public String toString()
     {
         StringBuilder sb = new StringBuilder();
+        sb.append("Classification: HERO!\n\n");
 	    sb.append("Name: " + getName() + "\n");
 	    sb.append("Superpower: " + getSuperPower() + "\n");
 	    sb.append("Costume: " + getCostume() + "\n");

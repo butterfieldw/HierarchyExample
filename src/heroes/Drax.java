@@ -23,12 +23,12 @@ public class Drax extends Hero implements Displayable, Quotable
 
     @Override
     public String getCostume() {
-        return null;
+        return "himself";
     }
 
     @Override
     public String getHomeWorld() {
-        return null;
+        return "Kylos";
     }
 
     @Override
