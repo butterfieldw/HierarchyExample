@@ -12,11 +12,11 @@ public class Thanos extends Villain
 
     @Override
     public String doEvilDeed() {
-        return null;
+        return "Finger snap";
     }
 
     @Override
     public String nemesisOf() {
-        return null;
+        return "All heroes";
     }
 }
