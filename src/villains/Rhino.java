@@ -3,9 +3,9 @@ package villains;
 import abstractions.Villain;
 import interfaces.CanBlendIn;
 
-public class Rino extends Villain implements CanBlendIn
+public class Rhino extends Villain implements CanBlendIn
 {
-	public Rino(String n, String p) 
+	public Rhino(String n, String p)
 	{
 		super(n, p);
 	}
