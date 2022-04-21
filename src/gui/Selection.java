@@ -91,7 +91,9 @@ public class Selection {
         }
         else if (selectedName.equals("Falcon"))
         {
-
+            Falcon theCharacter = new Falcon("Sam Wilson", "Flies with wings and weapons");
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
+            theImage = null;
         }
         else if (selectedName.equals("Galactus"))
         {
@@ -167,12 +169,14 @@ public class Selection {
         }
         else if (selectedName.equals("Vision"))
         {
-
+            Vision theCharacter = new Vision("The Vision", "Mind Stone");
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
+            theImage = null;
         }
         else if (selectedName.equals("Wanda"))
         {
-            Wanda theCharacter = new Wanda("Wanda", "Magic");
-            theText = theCharacter.toString() + "\n";
+            Wanda theCharacter = new Wanda("Scarlet Witch", "Magic, witchcraft");
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
             theImage = null;
         }
         else if (selectedName.equals("War Machine"))
