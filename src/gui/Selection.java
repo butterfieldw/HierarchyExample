@@ -61,44 +61,131 @@ public class Selection {
     public static void setCharacter(JLabel theLbl, String selectedName) {
         String theText = null;
         ImageIcon theImage = null;
-       if (selectedName.equals("Drax"))
-       {
-           Drax theCharacter = new Drax();
-           theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
-           theImage = ImageLoader.setImage(theCharacter.getImageFileName());
-       }
-       else if (selectedName.equals("Gamora"))
-       {
-           Gamora theCharacter = new Gamora();
-           theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
-           theImage = ImageLoader.setImage(theCharacter.getImageFileName());
-       }
-       else if (selectedName.equals("Groot"))
-       {
-           Groot theCharacter = new Groot();
-           theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
-           theImage = ImageLoader.setImage(theCharacter.getImageFileName());
-       }
+        if (selectedName.equals("Captain America"))
+        {
+
+        }
+        if (selectedName.equals("Carnage"))
+        {
+
+        }
+        else if (selectedName.equals("Doctor Strange"))
+        {
+
+        }
+        else if (selectedName.equals("Drax"))
+        {
+            Drax theCharacter = new Drax();
+            theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
+            theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+        }
+        else if (selectedName.equals("Dr Doom"))
+        {
+            DrDoom theCharacter = new DrDoom("Dr. Doom", "Dark mysticicim and sorcery");
+            theText = theCharacter.toString() + "\n";
+            theImage = null;
+        }
+        else if (selectedName.equals("Falcon"))
+        {
+
+        }
+        else if (selectedName.equals("Galactus"))
+        {
+
+        }
+        else if (selectedName.equals("Gamora"))
+        {
+            Gamora theCharacter = new Gamora();
+            theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
+            theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+        }
+        else if (selectedName.equals("Groot"))
+        {
+            Groot theCharacter = new Groot();
+            theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
+            theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+        }
+        else if (selectedName.equals("Hawkeye"))
+        {
+
+        }
+        else if (selectedName.equals("Hulk"))
+        {
+
+        }
+        else if (selectedName.equals("Iron Man"))
+        {
+
+        }
+        else if (selectedName.equals("Maphisto"))
+        {
+
+        }
+        else if (selectedName.equals("Nick Fury"))
+        {
+
+        }
+        else if (selectedName.equals("Rhino"))
+        {
+
+        }
+        else if (selectedName.equals("Rocket"))
+        {
+            Rocket theCharacter = new Rocket();
+            theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
+            theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+        }
+        else if (selectedName.equals("Sandman"))
+        {
+
+        }
+        else if (selectedName.equals("Spider Man"))
+        {
+
+        }
+        else if (selectedName.equals("Star Lord"))
+        {
+            StarLord theCharacter = new StarLord();
+            theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
+            theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+        }
+        else if (selectedName.equals("Thanos"))
+        {
+
+        }
+        else if (selectedName.equals("Vision"))
+        {
+
+        }
+        else if (selectedName.equals("Wanda"))
+        {
+            Wanda theCharacter = new Wanda("Wanda", "Magic");
+            theText = theCharacter.toString() + "\n";
+            theImage = null;
+        }
+        else if (selectedName.equals("War Machine"))
+        {
+
+        }
+        else if (selectedName.equals("Winter Soldier"))
+        {
+
+        }
+
+
+
        else if (selectedName.equals("Rocket"))
        {
-           Rocket theCharacter = new Rocket();
-           theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
-           theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+
        }
        else if (selectedName.equals("Star Lord")) {
-           StarLord theCharacter = new StarLord();
-           theText = theCharacter + "\nQuote: " + theCharacter.getQuote();
-           theImage = ImageLoader.setImage(theCharacter.getImageFileName());
+
        }
        else if (selectedName.equals("Wanda")) {
-           Wanda theCharacter = new Wanda("Wanda", "Magic");
-           theText = theCharacter.toString() + "\n";
-           theImage = null;
+
        }
        else if (selectedName.equals("Dr. Doom")) {
-           DrDoom theCharacter = new DrDoom("Dr. Doom", "Dark mysticicim and sorcery");
-           theText = theCharacter.toString() + "\n";
-           theImage = null;
+
        }
        // 2. Add more else-if statements here for new characters:
 
