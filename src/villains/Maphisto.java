@@ -7,7 +7,6 @@ public class Maphisto extends Villain implements FormScheme
 {
 	public Maphisto(String n, String p) {
 		super(n, p);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
