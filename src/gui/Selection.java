@@ -26,30 +26,30 @@ public class Selection {
     public static ArrayList<String> selectionOptions()
     {
         ArrayList<String> names = new ArrayList<String>();
-        names.add("Drax");
-        names.add("Gamora");
-        names.add("Groot");
-        names.add("Rocket");
-        names.add("Star Lord");
         names.add("Captain America");
+        names.add("Carnage");
+        names.add("Drax");
+        names.add("Dr. Doom");
         names.add("Doctor Strange");
         names.add("Falcon");
-        names.add("Iron Man");
-        names.add("Nick Fury");
-        names.add("Spider Man");
-        names.add("Vision");
-        names.add("Wanda");
-        names.add("Winter Solder");
+        names.add("Galactus");
+        names.add("Gamora");
+        names.add("Groot");
         names.add("Hawkeye");
         names.add("Hulk");
-        names.add("War Machine");
-        names.add("Carnage");
-        names.add("Dr. Doom");
-        names.add("Galactus");
+        names.add("Iron Man");
         names.add("Maphisto");
+        names.add("Nick Fury");
         names.add("Rhino");
+        names.add("Rocket");
         names.add("Sandman");
+        names.add("Spider Man");
+        names.add("Star Lord");
         names.add("Thanos");
+        names.add("Wanda");
+        names.add("War Machine");
+        names.add("Winter Solder");
+        names.add("Vision");
         // 1. ADD MORE NAMES TO THE LIST HERE:
 
         // END OF PART 1
@@ -84,6 +84,10 @@ public class Selection {
             DrDoom theCharacter = new DrDoom("Dr. Doom", "Dark mysticicim and sorcery");
             theText = theCharacter.toString() + "\n";
             theImage = null;
+        }
+        else if (selectedName.equals("Electro"))
+        {
+
         }
         else if (selectedName.equals("Falcon"))
         {
@@ -121,7 +125,15 @@ public class Selection {
         {
 
         }
+        else if (selectedName.equals("Mystique"))
+        {
+
+        }
         else if (selectedName.equals("Nick Fury"))
+        {
+
+        }
+        else if (selectedName.equals("Red Skull"))
         {
 
         }
