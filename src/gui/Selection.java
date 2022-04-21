@@ -39,7 +39,7 @@ public class Selection {
         names.add("Spider Man");
         names.add("Vision");
         names.add("Wanda");
-        names.add("Winter Solder");
+        names.add("Winter Soldier");
         names.add("Hawkeye");
         names.add("Hulk");
         names.add("War Machine");
@@ -51,7 +51,9 @@ public class Selection {
         names.add("Sandman");
         names.add("Thanos");
         // 1. ADD MORE NAMES TO THE LIST HERE:
-
+        names.add("Electro");
+        names.add("Mystique");
+        names.add("RedSkull");
         // END OF PART 1
         names.sort(null);
         names.add(0, "Make a selection");
@@ -71,7 +73,9 @@ public class Selection {
         }
         else if (selectedName.equals("Doctor Strange"))
         {
-
+            DoctorStrange theCharacter = new DoctorStrange("Steven Strange", "Magic");
+            theText = theCharacter.toString() + "\n" + theCharacter.throwProjectile();
+            theImage = null;
         }
         else if (selectedName.equals("Drax"))
         {
@@ -123,7 +127,9 @@ public class Selection {
         }
         else if (selectedName.equals("Nick Fury"))
         {
-
+            NickFury theCharacter = new NickFury("Nicholas Fury", "secert spy");
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
+            theImage = null;
         }
         else if (selectedName.equals("Rhino"))
         {
@@ -160,7 +166,7 @@ public class Selection {
         else if (selectedName.equals("Wanda"))
         {
             Wanda theCharacter = new Wanda("Wanda", "Magic");
-            theText = theCharacter.toString() + "\n";
+            theText = theCharacter.toString() + "\n" + theCharacter.fly();
             theImage = null;
         }
         else if (selectedName.equals("War Machine"))
@@ -169,7 +175,9 @@ public class Selection {
         }
         else if (selectedName.equals("Winter Soldier"))
         {
-
+            WinterSoldier theCharacter = new WinterSoldier("Bucky", "Metal Arm");
+            theText = theCharacter.toString() + "\n" + theCharacter.throwProjectile();
+            theImage = null;
         }
 
 
