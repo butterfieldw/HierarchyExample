@@ -107,11 +107,17 @@ public class Selection {
         }
         else if (selectedName.equals("Hawkeye"))
         {
+            Hawkeye theCharacter = new Hawkeye("Hawkeye", "Eagle Eye");
+            theText = theCharacter.toString() + "\n" + theCharacter.throwProjectile();
+            theImage = null;
+
 
         }
         else if (selectedName.equals("Hulk"))
         {
-
+            Hulk theCharacter = new Hulk("Hulk", "Limitless Strength");
+            theText = theCharacter.toString();
+            theImage = null;
         }
         else if (selectedName.equals("Iron Man"))
         {
@@ -165,6 +171,10 @@ public class Selection {
         }
         else if (selectedName.equals("War Machine"))
         {
+            WarMachine theCharacter = new WarMachine("War Machine", "War Suit");
+            theText = theCharacter.toString() + "\n" + theCharacter.throwProjectile() + "\n"
+            + theCharacter.fly();
+            theImage = null;
 
         }
         else if (selectedName.equals("Winter Soldier"))
