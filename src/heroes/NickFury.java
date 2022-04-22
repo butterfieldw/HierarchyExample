@@ -24,7 +24,7 @@ public class NickFury extends Hero implements Flying, ProjectileThrower {
 
     @Override
     public String getCostume() {
-        return "grab red suit";
+        return "grab black suit";
     }
 
     @Override
